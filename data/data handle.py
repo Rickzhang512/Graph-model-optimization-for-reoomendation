@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-# 解析IDOMAAR格式文件
+
 def parse_idomaar_file(file_path):
     data = []
     with open(file_path, 'r') as file:
@@ -19,18 +19,17 @@ def parse_idomaar_file(file_path):
                     continue
     return data
 
-# 加载用户数据
 file_path = 'users.idomaar'
 data = parse_idomaar_file(file_path)
 
-# 将数据转换为DataFrame
+
 df = pd.DataFrame(data, columns=['entity_type', 'entity_id', 'timestamp', 'attributes'])
 
-# 随机选择1000个用户
+
 sample_size = 1000
 sample_df = df.sample(n=sample_size, random_state=42)
 
-# 提取用户信息
+
 def extract_user_info(attributes):
     return (attributes.get('lastfm_username'), attributes.get('gender'), attributes.get('age'),
             attributes.get('country'), attributes.get('playcount'), attributes.get('playlists'),
