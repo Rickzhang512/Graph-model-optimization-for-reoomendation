@@ -27,7 +27,7 @@ This project explores the optimization of graph-based models for music recommend
 
 ### Data
 
-The project uses the 30Music dataset, which includes user playlists, listening sessions, positive ratings, and more. This dataset is crucial for predicting user preferences and making playlist recommendations.
+The project uses the 30Music dataset, which includes user playlists, listening sessions, positive ratings, and more. This dataset is crucial for predicting user preferences and making playlist recommendations. https://recsys.deib.polimi.it/datasets/
 
 ### Graph Construction
 
