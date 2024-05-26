@@ -77,8 +77,3 @@ jupyter notebook Music_Recommendation.ipynb
 
 This project demonstrates the effectiveness of using optimized graph models for music recommendation systems. By leveraging `NetworkX` and `StellarGraph`, we can handle complex user-music interactions and provide personalized recommendations with improved accuracy.
 
-## References
-
-1. Will Hamilton, Zhitao Ying, and Jure Leskovec. "Inductive representation learning on large graphs." Advances in neural information processing systems, 30, 2017.
-2. Roberto Turrin, Massimo Quadrana, Andrea Condorelli, Roberto Pagano, Paolo Cremonesi, et al. "30Music listening and playlists dataset." RecSys Posters, 75, 2015.
-3. Rex Ying, Ruining He, Kaifeng Chen, Pong Eksombatchai, William L Hamilton, and Jure Leskovec. "Graph convolutional neural networks for web-scale recommender systems." In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining, pages 974–983, 2018.
